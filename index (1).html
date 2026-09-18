@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Для Кристины ❤️</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;background:#09060b;color:#fff;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+body{overflow:hidden}
+.wrap{height:100svh;display:flex;align-items:center;justify-content:center;padding:10px}
+.card{
+ width:min(430px,100%);height:min(820px,calc(100svh - 20px));position:relative;overflow:hidden;
+ border:1px solid #ff5fae;border-radius:28px;
+ background:radial-gradient(circle at 20% 10%,#401126 0,transparent 35%),radial-gradient(circle at 90% 90%,#321022 0,transparent 35%),#0b070d;
+ box-shadow:0 0 45px #ff2e8920;
+}
+.page{
+ position:absolute;inset:0;padding:28px;display:flex;flex-direction:column;
+ opacity:0;visibility:hidden;transform:translateX(25px);
+ transition:opacity .35s,transform .35s,visibility .35s;
+}
+#p1:target,#p2:target,#p3:target,#p4:target,#p5:target,#p6:target,#p7:target{
+ opacity:1;visibility:visible;transform:none;z-index:2;
+}
+#p1{opacity:1;visibility:visible;transform:none;z-index:1}
+.card:has(.page:target) #p1{opacity:0;visibility:hidden;transform:translateX(-25px);z-index:0}
+.top{font-size:12px;letter-spacing:.12em;color:#ff8fc7;display:flex;justify-content:space-between}
+h1,h2{color:#ff7fbc;font-style:italic;text-shadow:0 0 18px #ff3c9c55}
+h1{font-size:43px;line-height:1.08;text-align:center;margin:70px 0 0}
+h2{font-size:36px;margin:75px 0 20px}
+.text{font-size:18px;line-height:1.65;color:#f7e4ee}
+.sub{text-align:center;font-size:17px;line-height:1.65;color:#f7dce9;margin-top:25px}
+.heart{font-size:80px;text-align:center;color:#ff5eae;text-shadow:0 0 25px #ff3c9c99;margin-top:40px;animation:pulse 1.7s infinite}
+.quote{margin-top:auto;border-left:2px solid #ff64b1;background:#ff4b9d0d;padding:16px 18px;border-radius:0 14px 14px 0;color:#ffdcea;line-height:1.55}
+.btn{
+ display:flex;align-items:center;justify-content:center;text-decoration:none;
+ min-height:58px;margin-top:25px;border-radius:999px;background:#ff69b4;color:#210812;
+ font-weight:700;font-size:17px;box-shadow:0 8px 28px #ff3d971f;
+ -webkit-tap-highlight-color:transparent;touch-action:manipulation;
+}
+.next{align-self:flex-end;width:50px;height:50px;border:1px solid #ff6db5;border-radius:50%;margin-top:20px;display:flex;align-items:center;justify-content:center;text-decoration:none;color:#ff8ac3;font-size:25px}
+.final{justify-content:center;text-align:center}
+.final .heart{margin:0 0 25px}
+.final h2{margin:0;font-size:39px}
+.final .sub{margin-top:25px}
+.pink{color:#ff91c7;font-style:italic}
+@keyframes pulse{50%{transform:scale(1.08)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="card">
+
+<section class="page" id="p1">
+ <div class="top"><span>ДЛЯ КРИСТИНЫ</span><span>♡</span></div>
+ <h1>Сначала<br>обними меня</h1>
+ <div class="heart">♡</div>
+ <p class="sub">Чтобы открыть этот подарок,<br>сначала обними меня.</p>
+ <a class="btn" href="#p2">♥ &nbsp; Мы обнялись</a>
+</section>
+
+<section class="page" id="p2">
+ <div class="top"><span>1 / 6</span><span>♡</span></div>
+ <h2>Твои глаза</h2>
+ <p class="text">Я иногда просто смотрю на тебя и забываю, что хотел сказать.</p>
+ <div class="quote">Твои глаза — это какая-то отдельная магия. ❤️</div>
+ <a class="next" href="#p3">→</a>
+</section>
+
+<section class="page" id="p3">
+ <div class="top"><span>2 / 6</span><span>♡</span></div>
+ <h2>Твой характер</h2>
+ <p class="text">Да, он сложный. Иногда очень. Но я люблю именно тебя, а не какую-то идеальную версию тебя.</p>
+ <div class="quote">Ты настоящая. И именно это мне нравится. ❤️</div>
+ <a class="next" href="#p4">→</a>
+</section>
+
+<section class="page" id="p4">
+ <div class="top"><span>3 / 6</span><span>♡</span></div>
+ <h2>Твоя забывчивость</h2>
+ <p class="text">То, как ты постоянно что-нибудь забываешь, почему-то кажется мне ужасно милым.</p>
+ <div class="quote">«Я забыла…» — наверное, одна из твоих самых милых фраз. 😄</div>
+ <a class="next" href="#p5">→</a>
+</section>
+
+<section class="page" id="p5">
+ <div class="top"><span>4 / 6</span><span>♡</span></div>
+ <h2>Твоё доверие</h2>
+ <p class="text">Особенно когда ты спрашиваешь моего совета. Потому что тогда я понимаю, что моё мнение действительно важно для тебя.</p>
+ <div class="quote">Ты доверяешь мне. И для меня это очень много значит. ❤️</div>
+ <a class="next" href="#p6">→</a>
+</section>
+
+<section class="page" id="p6">
+ <div class="top"><span>5 / 6</span><span>♡</span></div>
+ <h2>И ещё кое-что…</h2>
+ <p class="text">Мне нравится твоя улыбка, твой смех, твоя энергия, твоя нежность и то, как ты делаешь мои дни теплее просто тем, что ты есть.</p>
+ <div class="quote">Спасибо тебе за всё, Кристина. ❤️</div>
+ <a class="next" href="#p7">→</a>
+</section>
+
+<section class="page final" id="p7">
+ <div class="heart">♥</div>
+ <h2>А теперь…<br>убери телефон.</h2>
+ <p class="sub">Потому что лучший подарок<br>сейчас уже у меня в руках. ❤️</p>
+ <p class="pink">Просто побудь со мной.</p>
+</section>
+
+</div>
+</div>
+</body>
+</html>
